@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:#f0f8ff;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    width: 300px;
+    border-radius: 8px;
+    border: 1px solid rgb;{97,84,209};
+}
+
+.flex-item {
+    background-color: #f0f8ff;
+    border: 2px solid #005f6b;
+    padding: 20px;
+    font-size: 1.5em;
+}

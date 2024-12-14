@@ -1,0 +1,38 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, nav, main, footer {
+    padding: 20px;
+    margin: 10px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+/* Grid Layout for Main Content */
+main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+}
+
+/* Styles for Navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+@media(max-width: 768px){
+
+    display: grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    margin: 10px;
+}

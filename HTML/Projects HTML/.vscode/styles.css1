@@ -1,0 +1,171 @@
+/* styles.css*/
+/* Основной стиль страницы */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Стили навигации */
+nav {
+    background-color: #005f6b;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Стили заголовка */
+header {
+    position: relative;    /* Устанавливаем относительное позиционирование для работы с псевдоэлементом */
+    background: url('../cat image/header-bg.jpeg') no-repeat center center;
+    background-size: cover;    /* Устанавливаем покрытие без растяжения */
+    color: black;
+    text-align: center;
+    padding: 50px 20px;
+    height: 300px;    /* Задаем фиксированную высоту для заголовка */
+    overflow: hidden;    /* Обрезаем излишки, если они выходят за пределы */
+}
+
+header::before {
+    content: "";    /* Добавляем пустой псевдоэлемент */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);    /* Полупрозрачный черный слой */
+    z-index: 1;    /* Помещаем затемнение ниже текста */
+}
+
+header h1,
+header p {
+    position: relative;    /* Устанавливаем текст выше затемнения */
+    z-index: 2;    /* Поднимаем текст над псевдоэлементом */
+    color: white;    /* Белый цвет текста для лучшей читаемости */
+}
+
+/* Секция "О нас" */
+.about {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.about p {
+    font-size: 1em;
+}
+
+/* Секция "Наши услуги" */
+.services {
+    background-color: #f0f8ff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.services h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h3 {
+    margin-top: 0;
+    color: #005f6b;
+}
+
+/* Стили футера */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+/* Стили формы обратной связи */
+form {
+
+    background-color: white;    /* Белый фон формы */
+    border: 1px solid #ccc;    /* Серый контур */
+    border-radius: 8px;    /* Скругленные углы */
+    padding: 20px;    /* Внутренние отступы */
+    max-width: 500px;    /* Ограничение ширины формы */
+    margin: 20px auto;    /* Центрирование формы */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);    /* Лёгкая тень для объёма */
+}
+
+/* Поля ввода */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: calc(100% - 20px);  /* Ширина 100% с учётом отступов */
+    padding: 10px;    /* Внутренние отступы */
+    margin-bottom: 15px;    /* Отступ между элементами */
+    border: 1px solid #ccc;    /* Серый контур */
+    border-radius: 5px;    /* Скруглённые углы */
+    font-size: 1em;    /* Размер текста */
+    background-color: #f9f9f9;    /* Лёгкий серый фон */
+}
+
+/* Поле textarea */
+textarea {
+    height: 100px;    /* Высота текстовой области */
+    resize: vertical;    /* Изменение размера только по вертикали */
+}
+
+/* Кнопка отправки */
+input[type="submit"] {
+    background-color: #005f6b;    /* Тёмно-синий цвет кнопки */
+    color: white;    /* Белый текст кнопки */
+    padding: 10px 20px;    /* Внутренние отступы */
+    border: none;    /* Убираем границу */
+    border-radius: 5px;    /* Скруглённые углы */
+    cursor: pointer;    /* Указатель при наведении */
+    font-size: 1em;    /* Размер текста */
+    transition: background-color 0.3s;    /* Анимация изменения цвета */
+}
+
+
+/* Эффект при наведении на кнопку */
+input[type="submit"]:hover {
+    background-color: #040087;    /* Синий цвет при наведении */
+}

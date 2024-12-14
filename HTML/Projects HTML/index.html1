@@ -1,0 +1,75 @@
+<!-- indexhtml1 -->
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="css/styles.css1">
+    <style>
+.flex-container{
+    display: flex;
+    flex direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.flex-item{
+    background-color: aquamarine;
+    padding: 20px;
+    border: 1px solid red;
+}
+    
+
+</style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="contact.html">Обратная связь</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Добро пожаловать на наш сайт!</h1>
+        <p>Мы рады видеть вас здесь. Узнайте больше о нас и наших услугах.</p>
+    </header>
+
+    <section class="about">
+        <h2>О нас</h2>
+        <p>Мы молодая и энергичная команда, которая стремится создавать простые, но эффективные веб-решения для наших
+            клиентов. Мы верим в силу технологий и человеческого взаимодействия.</p>
+    </section>
+
+    <section class="services">
+        <h2>Наши услуги</h2>
+
+        <div class="service-card">
+            <h3>Разработка веб-сайтов</h3>
+            <p>Мы создаём адаптивные и функциональные сайты, которые помогут вашему бизнесу расти.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>Техническая поддержка</h3>
+            <p>Обеспечиваем поддержку и регулярное обновление ваших веб-ресурсов.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>SEO-оптимизация</h3>
+            <p>Повышаем видимость вашего сайта в поисковых системах, чтобы привлечь больше клиентов.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Наш сайт. Все права защищены.</p>
+        <p><a href="contact.html">Связаться с нами</a></p>
+    </footer>
+</body>
+
+</html>
+
+
