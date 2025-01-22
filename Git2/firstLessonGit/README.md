@@ -1,4 +1,0 @@
-# firstLessonGit
-# firstLessonGit
-# mySecondProject
-# myFirstProject
