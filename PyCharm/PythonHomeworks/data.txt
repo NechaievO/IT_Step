@@ -1,0 +1,3 @@
+Hello world !!!
+Python is cool!
+Work on Python is comfortable!

@@ -1,0 +1,6 @@
+New file 'output.txt' is created
+It works fabulously!
+It does show how Python is great!
+...and incredibly easy!
+We are adding a new string!
+File is successfully updated!
