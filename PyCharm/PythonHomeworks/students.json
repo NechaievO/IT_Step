@@ -1,0 +1,38 @@
+[
+    {
+        "name": "John Doe",
+        "age": 20,
+        "grades": [
+            88,
+            75,
+            92
+        ]
+    },
+    {
+        "name": "Jane Smith",
+        "age": 22,
+        "grades": [
+            91,
+            85,
+            78
+        ]
+    },
+    {
+        "name": "Michael Jones",
+        "age": 23,
+        "grades": [
+            89,
+            79,
+            93
+        ]
+    },
+    {
+        "name": "Julie Burns",
+        "age": 21,
+        "grades": [
+            94,
+            83,
+            85
+        ]
+    }
+]
