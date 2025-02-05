@@ -4,7 +4,7 @@ if dayweek.isdigit():
     dayweek = int(dayweek)
     if 1 <= dayweek <=7:
 
-     if dayweek in [1]:
+     if dayweek ==  1:
             print("Monday")
      elif dayweek in [2]:
             print("Tuesday")
@@ -29,7 +29,7 @@ try:
         monthNumber = int(monthNumber)
         if 1 <= monthNumber <= 12:
 
-            if monthNumber in [1]:
+            if monthNumber == 1:
                 print("January")
             elif monthNumber in [2]:
                 print("February")
@@ -137,10 +137,10 @@ while True:
     else:
         print('Please enter a valid integer.')
 
-if first_number <= second_number:
-    for number in range(first_number, second_number + 1):
-        print(number)
 if first_number > second_number:
-    for number in range(first_number, second_number - 1, -1):
+    for number in range(second_number, first_number + 1):
+        print(number)
+if first_number <= second_number:
+    for number in range(second_number, first_number - 1, -1):
         print(number)
 
