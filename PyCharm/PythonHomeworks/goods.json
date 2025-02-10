@@ -1,0 +1,16 @@
+{
+    "inventory": [
+        {
+            "item": "Laptop",
+            "quantity": 70
+        },
+        {
+            "item": "Mouse",
+            "quantity": 220
+        },
+        {
+            "item": "Keyboard",
+            "quantity": 170
+        }
+    ]
+}
