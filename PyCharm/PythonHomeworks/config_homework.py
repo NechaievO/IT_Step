@@ -1,0 +1,6 @@
+URL = "http://www.datart.cz?"
+correct_login = "chuprin@seznam.cz"
+correct_password = "correct"
+incorrect_login = "testgmailcom"
+incorrect_password = "password"
+blank_login = ""
